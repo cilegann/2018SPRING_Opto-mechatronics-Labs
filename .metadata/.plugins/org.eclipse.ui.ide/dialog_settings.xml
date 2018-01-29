@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="\\Mac\Home\Desktop\2018SPRING_Opto-mechatronics-Labs"/>
+		<item value="\\MAC\Home\Desktop\2018SPRING_Opto-mechatronics-Labs"/>
 		<item value="C:\Users\cilegann\Desktop\ARM_workspace"/>
 		<item value="C:\Users\cilegann\Desktop\ARM_workspace\LED_Blink_CUBE"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="\\Mac\Home\Desktop\2018SPRING_Opto-mechatronics-Labs\projects"/>
+			<item value="\\Mac\Home\Desktop\2018SPRING_Opto-mechatronics-Labs"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.ui.wizards.new.project" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
