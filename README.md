@@ -1,14 +1,13 @@
 # 2018SPRING_Opto-mechatronics-Labs
 📟 STM32F303RE
 
-## Getting Started
 
-### EVB
+
+## EVB
 ```
 NUCLEO-F303RE
 ```
-
-### Tools
+## Tools
 ```
 STM32CubeMX
 TrueSTUDIO STM32
