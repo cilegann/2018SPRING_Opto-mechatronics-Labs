@@ -67,7 +67,7 @@ static void MX_USART2_UART_Init(void);
 /* USER CODE END PFP */
 char ms[50]="Msg from master: ";
 char master_tx_buffer[50],master_rx_buffer[50];
-char slave_tx_buffer[50]="Msg from slave: Msg get!",slave_rx_buffer[50];
+char slave_tx_buffer[50]="Msg from slave: Msg get!\r\n\0",slave_rx_buffer[50];
 int var=0;
 /* USER CODE BEGIN 0 */
 
