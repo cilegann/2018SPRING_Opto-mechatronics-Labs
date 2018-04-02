@@ -108,13 +108,13 @@ int main(void)
   {
 
   /* USER CODE END WHILE */
-	  for(int i=0;i<65536;i+=500){
+	  for(int i=0;i<=100;i++){
 		  TIM2->CCR1=i;
-		  HAL_Delay(10);
+		  Delay(10);
 	  }
-	  for(int i=65535;i>=0;i-=500){
+	  for(int i=100;i>=0;i--){
 		  TIM2->CCR1=i;
-		  HAL_Delay(10);
+		  Delay(10);
 	  }
   /* USER CODE BEGIN 3 */
 
@@ -182,27 +182,15 @@ void SystemClock_Config(void)
 static void MX_TIM2_Init(void)
 {
 
-  TIM_ClockConfigTypeDef sClockSourceConfig;
   TIM_MasterConfigTypeDef sMasterConfig;
   TIM_OC_InitTypeDef sConfigOC;
 
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 0;
+  htim2.Init.Prescaler = 7;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 65535;
+  htim2.Init.Period = 100;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
-  }
-
-  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
-  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
-  {
-    _Error_Handler(__FILE__, __LINE__);
-  }
-
   if (HAL_TIM_PWM_Init(&htim2) != HAL_OK)
   {
     _Error_Handler(__FILE__, __LINE__);
