@@ -24,4 +24,7 @@ data sheet
 * GPIO input - Toggle LED using Button
 * NVIC - GPIO EXTI
 * USART - Communicate with computer
+* SPI - Another communication method
+* PWM - Pulse Width Modulation
+* TIM IT
 ```
