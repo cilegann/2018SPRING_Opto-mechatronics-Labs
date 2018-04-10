@@ -2,64 +2,77 @@
 
 ## Tutorials and projects
 
-* GPIO output - Light up LED
-  [Youtube](https://www.youtube.com/watch?v=NC-FxCnxLOs&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=1)   
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/1_GPIO-LED_Blink_CUBE)   
+GPIO output - Light up LED
+
+> [Youtube](https://www.youtube.com/watch?v=NC-FxCnxLOs&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=1)    
+
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/1_GPIO-LED_Blink_CUBE)    
   
-* GPIO input - Toggle LED using Button
+GPIO input - Toggle LED using Button
 
-  [Youtube](https://www.youtube.com/watch?v=Po5o8U2RPC8&index=2&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB)   
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/2_GPIO-But_LED)   
+> [Youtube](https://www.youtube.com/watch?v=Po5o8U2RPC8&index=2&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB)    
+
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/2_GPIO-But_LED)   
   
-* NVIC - GPIO NVIC EXTI
+NVIC - GPIO NVIC EXTI
 
-  [Youtube](https://www.youtube.com/watch?v=h8oSqBWpWUc&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=3)   
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/3_GPIO_NVIC-LED_But_Blink)   
+> [Youtube](https://www.youtube.com/watch?v=h8oSqBWpWUc&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=3)   
+
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/3_GPIO_NVIC-LED_But_Blink)   
   
   
-* TIM IT - Blink LED using IT raise by timer
+TIM IT - Blink LED using IT raise by timer
 
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/TIM%2BGPIO-IT_LED_Blink_CUBE) 
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/TIM%2BGPIO-IT_LED_Blink_CUBE) 
   
-* USART - Communicate with computer
+USART - Communicate with computer
 
-  [Youtube](https://www.youtube.com/watch?v=R-9P7RGeONM&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=4)   
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/4_uart)   
+>  [Youtube](https://www.youtube.com/watch?v=R-9P7RGeONM&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=4)   
   
-* SPI - Another communication method
-
-  [Youtube](https://www.youtube.com/watch?v=CRJY2LkZj78&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=5)   
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/5_SPI)   
+>  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/4_uart)   
   
-* PWM - Pulse Width Modulation
+SPI - Another communication method
 
-  [Youtube](https://www.youtube.com/watch?v=xdsOMBVUEwI&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=6)   
-  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/6_PWM)   
+>  [Youtube](https://www.youtube.com/watch?v=CRJY2LkZj78&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=5)   
+
+>  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/5_SPI)   
   
-* ADC DAC
+PWM - Pulse Width Modulation
 
-  [Youtube]()   
-  [Code]()    
+>  [Youtube](https://www.youtube.com/watch?v=xdsOMBVUEwI&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=6)   
   
-
+>  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/6_PWM)   
   
-## EVB
+ADC DAC
 
-NUCLEO-F303RE
+>  [Youtube]()   
 
-## Tools
+>  [Code]()    
+  
+  
+## Contact me if you have any questions
 
-STM32CubeMX
+> [Email](mailto:b03505031@ntu.edu.tw)
+  
+## About tools and documents
 
-TrueSTUDIO STM32
+### EVB
 
-## Useful Documents
+> NUCLEO-F303RE
 
-Pin map
+### Tools
 
-user manual
+> [STM32CubeMX](http://www.st.com/en/development-tools/stm32cubemx.html)
 
-data sheet
+> [TrueSTUDIO STM32](https://atollic.com/resources/download/)
+
+### Useful Documents
+
+> [Pin map](https://1drv.ms/u/s!AhvG4aynbjM6hSo5QjF0D9MTKjRE)
+
+> [user manual](https://1drv.ms/b/s!AhvG4aynbjM6hSbYdGMIvdqcUq9E)
+
+> [data sheet](https://1drv.ms/b/s!AhvG4aynbjM6hSVA2_Dauw97Wrpj)
 
   
 
