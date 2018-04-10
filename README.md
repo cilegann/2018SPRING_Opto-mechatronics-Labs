@@ -1,27 +1,5 @@
-# 2018SPRING_光機電實驗
-📟 STM32F303RE
 
-
-
-## EVB
-
-NUCLEO-F303RE
-
-## Tools
-
-STM32CubeMX
-
-TrueSTUDIO STM32
-
-## Useful Documents
-
-Pin map
-
-user manual
-
-data sheet
-
-## Projects
+## Tutorials and projects
 
 * GPIO output - Light up LED
 
@@ -62,5 +40,24 @@ data sheet
 
   [Youtube](https://www.youtube.com/watch?v=NC-FxCnxLOs&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=1)   
   [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/1_GPIO-LED_Blink_CUBE)   
+  
+## EVB
+
+NUCLEO-F303RE
+
+## Tools
+
+STM32CubeMX
+
+TrueSTUDIO STM32
+
+## Useful Documents
+
+Pin map
+
+user manual
+
+data sheet
+
   
 
