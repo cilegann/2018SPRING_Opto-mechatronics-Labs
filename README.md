@@ -40,8 +40,10 @@ SPI - Another communication method
 PWM - Pulse Width Modulation
 
 >  [Youtube](https://www.youtube.com/watch?v=xdsOMBVUEwI&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=6)   
-  
->  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/6_PWM)   
+  
+>  [Note](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/blob/master/projects/6_PWM/Lab_Note_6_PWM.pdf)
+   
+>  [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/6_PWM)   
   
 ADC DAC
 
