@@ -27,4 +27,5 @@ data sheet
 * SPI - Another communication method
 * PWM - Pulse Width Modulation
 * TIM IT
+* ADC DAC
 ```
