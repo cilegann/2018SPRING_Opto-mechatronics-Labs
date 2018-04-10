@@ -1,8 +1,7 @@
 
-## Tutorials and projects
+# Tutorials and projects
 
-* GPIO output - Light up LED
-
+## GPIO output - Light up LED
   [Youtube](https://www.youtube.com/watch?v=NC-FxCnxLOs&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=1)   
   [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/1_GPIO-LED_Blink_CUBE)   
   
@@ -43,17 +42,17 @@
   
 
   
-## EVB
+# EVB
 
 NUCLEO-F303RE
 
-## Tools
+# Tools
 
 STM32CubeMX
 
 TrueSTUDIO STM32
 
-## Useful Documents
+# Useful Documents
 
 Pin map
 
