@@ -1,60 +1,64 @@
+
+
 ## Tutorials and projects
 
 GPIO output - Light up LED
 
-> :movie_camera:[Youtube](https://www.youtube.com/watch?v=NC-FxCnxLOs&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=1)
+<i class="fa fa-address-card-o"></i>
+
+> [Youtube](https://www.youtube.com/watch?v=NC-FxCnxLOs&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=1)
  | 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/1_GPIO-LED_Blink_CUBE)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/1_GPIO-LED_Blink_CUBE)
   
 GPIO input - Toggle LED using Button
 
-> :movie_camera:[Youtube](https://www.youtube.com/watch?v=Po5o8U2RPC8&index=2&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB)
+> [Youtube](https://www.youtube.com/watch?v=Po5o8U2RPC8&index=2&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB)
  | 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/2_GPIO-But_LED)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/2_GPIO-But_LED)
 
   
 NVIC - GPIO NVIC EXTI
 
-> :movie_camera:[Youtube](https://www.youtube.com/watch?v=h8oSqBWpWUc&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=3)
+> [Youtube](https://www.youtube.com/watch?v=h8oSqBWpWUc&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=3)
  | 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/3_GPIO_NVIC-LED_But_Blink)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/3_GPIO_NVIC-LED_But_Blink)
   
 TIM IT - Blink LED using IT raise by timer
 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/TIM%2BGPIO-IT_LED_Blink_CUBE)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/TIM%2BGPIO-IT_LED_Blink_CUBE)
   
 USART - Communicate with computer
 
-> :movie_camera:[Youtube](https://www.youtube.com/watch?v=R-9P7RGeONM&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=4)
+> [Youtube](https://www.youtube.com/watch?v=R-9P7RGeONM&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=4)
  | 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/4_uart)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/4_uart)
   
 SPI - Another communication method
 
-> :movie_camera:[Youtube](https://www.youtube.com/watch?v=CRJY2LkZj78&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=5)
+> [Youtube](https://www.youtube.com/watch?v=CRJY2LkZj78&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=5)
  | 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/5_SPI)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/5_SPI)
   
 PWM - Pulse Width Modulation
 
-> :movie_camera:[Youtube](https://www.youtube.com/watch?v=xdsOMBVUEwI&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=6)
+> [Youtube](https://www.youtube.com/watch?v=xdsOMBVUEwI&list=PLW3_1YS4he7W4P_cRSNnJFSC1DgqUJsCB&index=6)
  | 
-> :notebook:[Note](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/blob/master/projects/6_PWM/Lab_Note_6_PWM.pdf)
+> [Note](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/blob/master/projects/6_PWM/Lab_Note_6_PWM.pdf)
  | 
-> :page_facing_up:[Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/6_PWM)
+> [Code](https://github.com/cilegann/2018SPRING_Opto-mechatronics-Labs/tree/master/projects/6_PWM)
   
 ADC DAC
 
-> :movie_camera:[Youtube]()
+> [Youtube]()
  | 
-> :notebook:[Note]()
+> [Note]()
  | 
-> :page_facing_up:[Code]()
+> [Code]()
   
   
 ## Contact me if you have any questions
 
-> :envelope:[Email](mailto:b03505031@ntu.edu.tw)
+> [Email](mailto:b03505031@ntu.edu.tw)
   
 ## About tools and documents
 
