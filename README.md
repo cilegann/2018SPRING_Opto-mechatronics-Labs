@@ -34,7 +34,7 @@ For links and updates, please refer to [tutorail page](https://cilegann.github.i
   
 * USART - Communicate with computer
 
-* SPI - Another communication method
+* SPI - Another communication interface
 
 * PWM - Pulse Width Modulation
 
