@@ -65,14 +65,9 @@ static void MX_ADC3_Init(void);
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
 uint32_t adc_buf[2];
-uint32_t adc[2];
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
-void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
-	adc[0]=adc_buf[0];
-	adc[1]=adc_buf[1];
-}
 /* USER CODE END 0 */
 
 /**
@@ -110,11 +105,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 //  uint32_t adc_buf[2];
 
-  HAL_UART_Transmit(&huart2,"start1\n\r",8,0xFFFF);
   HAL_StatusTypeDef status=HAL_ADC_Start_DMA(&hadc3,adc_buf,2);
-  char tosen[20];
-  sprintf(tosen,"%d\n\r",status);
-  HAL_UART_Transmit(&huart2,tosen,sizeof(tosen),0xFFFF);
 
   /* USER CODE END 2 */
 
