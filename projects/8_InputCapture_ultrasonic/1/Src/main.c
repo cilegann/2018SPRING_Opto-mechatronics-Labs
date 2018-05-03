@@ -109,25 +109,29 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-  /* USER CODE END WHILE */
-	  while(HAL_TIM_Base_Start(&htim2)!=HAL_OK);
+    while(HAL_TIM_Base_Start(&htim2)!=HAL_OK);
 	  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,1);
 	  HAL_Delay(1);
 	  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,0);
 	  while(!HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0));
-	  uint32_t v1=htim2.Instance->CNT;
+	  uint32_t t1=HAL_TIM_ReadCapturedValue(&htim2,TIM_CHANNEL_1);
 	  while(HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0));
-	  uint32_t v2=htim2.Instance->CNT;
-	  double distance=(v2-v1)/(double)58;
-	  int integer=(int)distance;
+	  uint32_t t2=HAL_TIM_ReadCapturedValue(&htim2,TIM_CHANNEL_1);
+	  double distance=0;
+    if(t2>t1){
+      distance=(t2-t1)/(double)58;
+    }else{
+      distance=(__HAL_TIM_GET_AUTORELOAD(&htim2)-t1+1+t2)/(double)58;
+    }
+    int integer=(int)distance;
 	  int point=(int)((distance-integer)*100);
 	  char tosend[20]={0};
-	  sprintf(tosend,"%d.%d\r\n",integer,point);
+	  sprintf(tosend,"%d.%02d\r\n",integer,point);
 	  HAL_UART_Transmit(&huart2,tosend,sizeof(tosend),0xffff);
 	  HAL_Delay(400);
-  /* USER CODE BEGIN 3 */
+  /* USER CODE END WHILE */
 
+  /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 
