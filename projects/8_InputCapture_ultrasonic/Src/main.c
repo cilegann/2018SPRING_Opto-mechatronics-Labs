@@ -71,41 +71,32 @@ static void MX_TIM1_Init(void);
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef* htim){
 	if(htim->Instance==TIM2){
 		if(HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0)==1){
-			//如果現在echo是高電位，代表呼叫這次中斷的是rising edge，將counter設為0
 			__HAL_TIM_SET_COUNTER(&htim2,0);
 		}else{
-			//如果現在echo是低電位，代表呼叫這次中斷的是falling edge，取得counter值
 			int cnt=__HAL_TIM_GET_COUNTER(&htim2);
-			//由於TIM2的clkout是1MHz，所以計數器值即為us，直接除以58算出距離
 			double distance=cnt/(double)58;
-			//for uart transmit
 			int integer=(int)distance;
 			int point=(int)((distance-integer)*100);
 			char tosend[20]={0};
 			sprintf(tosend,"%d.%02d\r\n",integer,point);
 			HAL_UART_Transmit(&huart2,tosend,sizeof(tosend),0xffff);
-			//開始計時器中斷，此時tim1Count早就被歸零，因此會等60ms後才會再發出一次trig
 			HAL_TIM_Base_Start_IT(&htim1);
 		}
 	}
 }
 
-
-int tim1Count=6000;  //宣告時初始化為6000，讓第一次的溢出中斷就可以直接開始Trig
+int tim1Count=7000;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+
 	if(htim->Instance==TIM1){
-		if(tim1Count<6000){
-			//前60ms，等待
+		if(tim1Count<7000){
 			tim1Count++;
-		}else{	
-			//停止計時器中斷
+		}else{
 			HAL_TIM_Base_Stop_IT(&htim1);
 			if(HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_1)==0){
-				//如果現在trig是低電位，將trig拉到高電位，開始計時器中斷
 				HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,1);
 				HAL_TIM_Base_Start_IT(&htim1);
 			}else{
-				//如果現在trig是高電位，將trig拉回低電位，tim1Count設為0以等待下次的60ms
 				tim1Count=0;
 				HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,0);
 			}
@@ -147,8 +138,8 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_IC_Start_IT(&htim2,TIM_CHANNEL_1);	//開始TIM2 CH1的輸入捕獲中斷
-  HAL_TIM_Base_Start_IT(&htim1);		//開始TIM1的計時器中斷
+  HAL_TIM_IC_Start_IT(&htim2,TIM_CHANNEL_1);
+  HAL_TIM_Base_Start_IT(&htim1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
