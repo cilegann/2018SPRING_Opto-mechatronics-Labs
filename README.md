@@ -39,7 +39,8 @@ For links and updates, please refer to [tutorial page](https://cilegann.github.i
 * PWM - Pulse Width Modulation
 
 * ADC DAC
-  
+
+* TIM Input Capture / Base IT - HCSR04 Ultrasonic
  
 
   
