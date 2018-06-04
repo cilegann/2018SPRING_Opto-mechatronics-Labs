@@ -22,7 +22,7 @@
 
 ## Tutorials and projects
 
-For links and updates, please refer to [tutorail page](https://cilegann.github.io/tutorial_and_note/stm/)
+For links and updates, please refer to [tutorial page](https://cilegann.github.io/tutorial_and_note/stm/)
 
 * GPIO output - Light up LED
   
